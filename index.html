@@ -24,19 +24,13 @@
         <p class="bio">I’m a master’s student in computer science at Brown. My research connects Bayesian computation, mechanistic models, and experimental design.</p>
         <div class="contact"><a class="cv" href="Zheyu_Shi_CV.pdf">Curriculum vitae <span aria-hidden="true">↗</span></a><a class="email" href="mailto:zheyu_shi@brown.edu">zheyu_shi@brown.edu</a></div>
       </div>
-      <figure class="study">
-        <figcaption><span class="eyebrow">From my chromatography study</span><h2>Certifying a decision after posterior compression</h2></figcaption>
-        <table class="matrix">
-          <caption>Product–reduction cases certified, out of six</caption>
-          <tbody>
-            <tr><th scope="row">Paired Monte Carlo</th><td><span class="cells six" aria-hidden="true"></span></td><td>6/6</td></tr>
-            <tr><th scope="row">Bures bound</th><td><span class="cells three" aria-hidden="true"></span></td><td>3/6</td></tr>
-            <tr><th scope="row">Analytic coupling bound</th><td><span class="cells" aria-hidden="true"></span></td><td>0/6</td></tr>
-          </tbody>
-        </table>
-        <p class="study-note">At the reference fit, the paired method certified that the preferred operating condition survived both reductions for each of three antibodies.</p>
+      <section class="study" aria-labelledby="study-title">
+        <p class="eyebrow">From my chromatography study</p>
+        <h2 id="study-title">When can we simplify a posterior and keep the same decision?</h2>
+        <p class="study-note">For each antibody, we had just 3–5 experiments to fit a 20-parameter model and choose among 24 purification settings. We developed a paired Monte Carlo method to certify when a simpler posterior still selects the setting with the lowest expected shortfall in purity and yield.</p>
+        <p class="study-note">At the reference fit, <strong>each antibody kept its preferred setting under both simplifications</strong>. Our method certified all six cases with 95% simultaneous confidence across 138 comparisons.</p>
         <a class="study-link" href="#chromatography">Read about the study <span aria-hidden="true">↓</span></a>
-      </figure>
+      </section>
     </section>
     <section id="publications" aria-labelledby="pub-title">
       <h2 class="section-title" id="pub-title">Publications &amp; manuscripts</h2>
