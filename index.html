@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f9f8f4">
+  <meta name="description" content="Zheyu Shi is a computer science master's student at Brown University studying Bayesian computation, uncertainty quantification, and scientific decision-making.">
+  <title>Zheyu Shi · Research</title>
+  <link rel="canonical" href="https://ryth0312.github.io/">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="wrap masthead">
+    <a class="wordmark" href="#top" aria-label="Zheyu Shi, back to top"><span class="monogram" aria-hidden="true">zs</span><span>Zheyu Shi</span></a>
+    <nav aria-label="Main navigation"><a href="#publications">Publications</a><a href="#projects">Projects</a><a href="#education">Education</a></nav>
+  </header>
+  <main class="wrap" id="main">
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="intro-copy">
+        <p class="eyebrow">Brown University · Computer Science</p>
+        <h1 id="intro-title">Zheyu Shi</h1>
+        <p class="lead">I study which uncertainties matter when scientists have to make a decision.</p>
+        <p class="bio">I’m a master’s student in computer science at Brown. My research connects Bayesian computation, mechanistic models, and experimental design. At Henlius, I studied how scientists can choose antibody purification conditions from just a few experiments.</p>
+        <div class="contact"><a class="cv" href="Zheyu_Shi_CV.pdf">Curriculum vitae <span aria-hidden="true">↗</span></a><a class="email" href="mailto:zheyu_shi@brown.edu">zheyu_shi@brown.edu</a></div>
+      </div>
+      <figure class="study">
+        <figcaption><span class="eyebrow">From my chromatography study</span><h2>Certifying a decision after posterior compression</h2></figcaption>
+        <table class="matrix">
+          <caption>Product–reduction cases certified, out of six</caption>
+          <tbody>
+            <tr><th scope="row">Paired Monte Carlo</th><td><span class="cells six" aria-hidden="true"></span></td><td>6/6</td></tr>
+            <tr><th scope="row">Bures bound</th><td><span class="cells three" aria-hidden="true"></span></td><td>3/6</td></tr>
+            <tr><th scope="row">Analytic coupling bound</th><td><span class="cells" aria-hidden="true"></span></td><td>0/6</td></tr>
+          </tbody>
+        </table>
+        <p class="study-note">At the reference fit, the paired method certified that the preferred operating condition survived both reductions for each of three antibodies.</p>
+        <a class="study-link" href="#chromatography">Read about the study <span aria-hidden="true">↓</span></a>
+      </figure>
+    </section>
+    <section id="publications" aria-labelledby="pub-title">
+      <h2 class="section-title" id="pub-title">Publications &amp; manuscripts</h2>
+      <article class="paper" id="chromatography">
+        <div class="paper-meta"><b>JASA</b><span>Under review</span></div>
+        <div class="paper-copy">
+          <h3>Bayesian decisions for antibody purification</h3>
+          <p class="authors"><strong>Zheyu Shi</strong>, Dongni Ji, Weijie Xu, Dongmei Han, Simon Hsu, Ran Chen</p>
+          <p>With three to five runs per antibody product, several parameter settings can explain the same data. We derive conditions under which simplifying a posterior preserves the choice among purification conditions. In one product, the best choice was stable, yet no candidate met the required probability of satisfying both purity and yield specifications.</p>
+          <p class="venue">Journal of the American Statistical Association · Research at Henlius with Ran Chen</p>
+          <div class="links"><a href="papers/jasa.pdf">Manuscript <span aria-hidden="true">↗</span></a><a href="papers/supplement-a.pdf">Supplement A <span aria-hidden="true">↗</span></a><a href="papers/supplement-b.pdf">Supplement B <span aria-hidden="true">↗</span></a><a href="https://github.com/Ryth0312/action-stable-posterior-compression">Replication code <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </article>
+      <article class="paper">
+        <div class="paper-meta"><b>NECV</b><span>2026</span></div>
+        <div class="paper-copy">
+          <h3>Finding smooth paths between images</h3>
+          <p class="authors">Chealyfey Vutha, <strong>Zheyu Shi</strong>, Daniel Ritchie</p>
+          <p>We optimize a path between two images using frozen diffusion and vision models to reduce ghosting and abrupt transitions. On MorphBench, FBI achieved the lowest LPIPS (0.0391) and FID (48.02) among the six methods compared.</p>
+          <p class="venue">Brown University · Advised by Daniel Ritchie</p>
+          <div class="links"><a href="papers/fbi.pdf">Full text <span aria-hidden="true">↗</span></a><a href="https://anonymous.4open.science/r/GeodesicDiffusion-8832/index.html">Project page <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </article>
+      <article class="paper">
+        <div class="paper-meta"><b>IEEE ITCA</b><span>2025</span></div>
+        <div class="paper-copy">
+          <h3>Group Deliberation Oriented Multi-Agent Conversational Model for Complex Reasoning</h3>
+          <p class="authors"><strong>Zheyu Shi</strong>, Dong Qiu, Shanlong Yu</p>
+          <p>I implemented a system in which agents propose answers, verify evidence, and arbitrate disagreements. We evaluated its performance on multi-hop questions, including whether answers stayed consistent across rounds of deliberation.</p>
+          <div class="links"><a href="https://arxiv.org/abs/2512.24613">arXiv <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </article>
+    </section>
+    <div class="details">
+      <section id="projects" aria-labelledby="project-title">
+        <h2 class="section-title" id="project-title">Research projects</h2>
+        <div class="detail-item"><p class="eyebrow">Shanghai Pulmonary Hospital · 2024–2025</p>
+          <h3>Interpretable deep learning for clinical time series</h3>
+          <p>I connected a prototype network’s predictions to patterns in vital signs and to historical patient cases. Feedback from 40 emergency and intensive care physicians helped me refine the vocabulary and visualizations used to explain the model’s predictions.</p>
+          <p class="venue">Joint research project · Advised by Hailiang Huang</p>
+        </div>
+      </section>
+      <section id="education" aria-labelledby="education-title">
+        <h2 class="section-title" id="education-title">Education</h2>
+        <div class="detail-item"><p class="eyebrow">2025–2027 · Expected May 2027</p><h3>Brown University</h3><p>M.S. in Computer Science</p></div>
+        <div class="detail-item"><p class="eyebrow">2021–2025</p><h3>Shanghai University of Finance and Economics</h3><p>B.Eng. in Data Science and Big Data Technology</p></div>
+      </section>
+    </div>
+  </main>
+  <footer class="wrap"><span>Zheyu Shi</span><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>
