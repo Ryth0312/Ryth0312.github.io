@@ -56,6 +56,9 @@ h3 { font-size: clamp(1.35rem,2.2vw,1.65rem); line-height: 1.22; letter-spacing:
 .detail-item { padding-top: 22px; }
 .detail-item + .detail-item { margin-top: 18px; border-top: 1px solid var(--rule); }
 .detail-item h3 { margin-top: 6px; font-size: 1.4rem; }
+.dungeon-results { margin-top: 16px; }
+.dungeon-results img { display: block; width: 100%; height: auto; }
+.dungeon-results figcaption { margin-top: 7px; color: var(--muted); font-size: .82rem; line-height: 1.45; }
 footer { display: flex; justify-content: space-between; align-items: center; padding: 21px 0 28px; border-top: 1px solid var(--rule); color: var(--muted); font-size: .83rem; }
 @media (max-width: 830px) {
   .wrap { width: min(710px,calc(100% - 48px)); }

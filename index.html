@@ -67,11 +67,26 @@
     <div class="details">
       <section id="projects" aria-labelledby="project-title">
         <h2 class="section-title" id="project-title">Research projects</h2>
+        <div class="detail-item"><p class="eyebrow">Henlius · Bayesian decision-making</p>
+          <h3><a href="#chromatography">Bayesian decisions for antibody purification</a></h3>
+        </div>
         <div class="detail-item"><p class="eyebrow">Shanghai Pulmonary Hospital · 2024–2025</p>
           <h3>Interpretable deep learning for clinical time series</h3>
           <p>I connected a prototype network’s predictions to patterns in vital signs and to historical patient cases. Feedback from 40 emergency and intensive care physicians helped me refine the vocabulary and visualizations used to explain the model’s predictions.</p>
           <p class="venue">Joint research project · Advised by Hailiang Huang</p>
         </div>
+        <article class="detail-item" id="dungeon-gourmet" aria-labelledby="dungeon-title">
+          <p class="eyebrow">Brown University · CSCI 2951X</p>
+          <h3 id="dungeon-title">Dungeon Gourmet</h3>
+          <p>Would a language agent keep a recipe notebook? Inspired by <cite>Delicious in Dungeon</cite>, we built a game where cooking rules change from one world to the next. We asked the agent to predict which dishes would cause harm and checked whether the clues it had seen were enough to deduce the answer.</p>
+          <p>Given a blank notebook, the agent never wrote a note in ten runs. When the game automatically logged every action, the agent spent its entire six-call budget searching the log on 74 of the 300 final questions and left them unanswered.</p>
+          <figure class="dungeon-results">
+            <img src="images/dungeon-gourmet-results.png" width="1200" height="640" loading="lazy" alt="Final predictions, out of 300 per condition. No saved files: 210 correct, 90 wrong, 0 unanswered. Writable notebook: 204 correct, 96 wrong, 0 unanswered. Automatic action log: 178 correct, 48 wrong, 74 unanswered.">
+            <figcaption>Final checkpoint. All three conditions used the same 10 worlds and 30 questions per world. Unanswered questions counted as errors.</figcaption>
+          </figure>
+          <p class="venue">With Weiyang Chen, Shizhe Zu, Yuhao Sheng, and Juntuo Wang</p>
+          <div class="links"><a href="papers/dungeon-gourmet.pdf">Course paper (PDF) <span aria-hidden="true">↗</span></a></div>
+        </article>
       </section>
       <section id="education" aria-labelledby="education-title">
         <h2 class="section-title" id="education-title">Education</h2>
